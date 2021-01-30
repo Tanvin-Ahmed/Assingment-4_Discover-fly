@@ -33,10 +33,12 @@ nav ul li a{
     color: #fff;
     padding: 10px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 nav ul li a:hover, a.active{
     background-color: #3352F2;
     border-radius: 5px;
+    color: white;
 }
 .main-content{
     display: grid;
@@ -116,13 +118,18 @@ nav ul li a:hover, a.active{
     color: #fff;
     font-weight: 500;
     background-color:  #3352F2;
+    outline: none;
+    cursor: pointer;
+}
+.btn-style:hover{
+    background-color:  #163bf5;
 }
 .amount{
     display: flex;
     justify-content: space-between;
 }
 /* confirm message section */
-#message{
+#Message{
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 25px;
