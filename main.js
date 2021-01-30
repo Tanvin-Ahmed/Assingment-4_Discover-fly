@@ -109,6 +109,7 @@ function main(buttonID, perTicketCount, totalCountID) {
 
 
 // /////////////////////////////BOOK NOW BUTTON PART///////////////////////////
+// message function
 function message(addNumber) {
     const bookNow = document.getElementById('bookNow');
     bookNow.addEventListener('click', function () {
