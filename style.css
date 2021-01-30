@@ -130,26 +130,12 @@ nav ul li a:hover, a.active{
 }
 /* confirm message section */
 #Message{
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: rgb(114, 117, 255);
+    border: 1px solid rgb(165, 215, 255);
     padding: 25px;
     border-radius: 5px;
     float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: white;
     display: none;
 }
-#exception{
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 25px;
-    border-radius: 5px;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
+

@@ -114,16 +114,8 @@ function message(addNumber) {
     bookNow.addEventListener('click', function () {
         // message
         if (addNumber >= 1) {
-            console.log('when addNumber > 0', addNumber)
             document.getElementById('form').style.display = 'none';
             document.getElementById('Message').style.display = 'block';
-        }
-        // exception
-        else {
-            console.log('when addNumber <= 0', addNumber)
-            document.getElementById('Message').style.display = 'none';
-            document.getElementById('form').style.display = 'none';
-            document.getElementById('exception').style.display = 'block';
         }
     })
 }
