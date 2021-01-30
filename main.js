@@ -103,20 +103,23 @@ function main(buttonID, perTicketCount, totalCountID) {
             }
         }
         // invoking message function
-        message(addNumber);
+        const Message = message();
+        Message(addNumber);
     })
 }
 
 
 // /////////////////////////////BOOK NOW BUTTON PART///////////////////////////
-function message(addNumber) {
+function message() {
     const bookNow = document.getElementById('bookNow');
     bookNow.addEventListener('click', function (addNumber) {
+        // message
         if (addNumber > 0) {
             console.log('when addNumber > 0', addNumber)
             document.getElementById('form').style.display = 'none';
             document.getElementById('message').style.display = 'block';
         }
+        // exception
         else {
             console.log('when addNumber <= 0', addNumber)
             document.getElementById('form').style.display = 'none';
